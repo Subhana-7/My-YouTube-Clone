@@ -1,0 +1,39 @@
+/* Style the sidebar element */
+.sidebar {
+  background-color: white;  /* Set background color to white */
+  width: 98px;                /* Set sidebar width */
+  bottom: 0;                 /* Position at the bottom of the viewport */
+  position: fixed;           /* Fix the sidebar to the viewport (doesn't scroll) */
+  left: 0;                   /* Position at the left edge of the viewport */
+  top: 70px;                  /* Start 70px from the top */
+  z-index: 200;               /* Ensure sidebar elements appear above other content */
+}
+
+/* Style the sidebar links container */
+.sidebar-links {
+  background-color: white;  /* Set background color to white */
+  height: 105px;              /* Set container height */
+  display: flex;             /* Arrange elements horizontally in a row */
+  flex-direction: column;    /* Stack elements vertically within the container */
+  align-items: center;        /* Center elements horizontally within the container */
+  justify-content: center;   /* Center elements vertically within the container */
+  padding-top: 6px;           /* Add top padding to the container */
+}
+
+/* Style the hover effect for sidebar links */
+.sidebar-links:hover {
+  background-color: rgb(233, 233, 233);  /* Change background color on hover */
+  cursor: pointer;                        /* Change cursor to pointer on hover */
+}
+
+/* Style the images within sidebar links */
+.sidebar-links img {
+  height: 32px;  /* Set image height */
+}
+
+/* Style the text within sidebar links */
+.sidebar-links div {
+  font-family: Roboto, Arial;  /* Set font family: Roboto preferred, Arial fallback */
+  font-size: 14px;             /* Set font size to 14px */
+  margin-top: 6px;              /* Add top margin to the text */
+}

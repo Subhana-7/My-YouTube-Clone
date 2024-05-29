@@ -1,0 +1,49 @@
+/* Target thumbnails (images/videos) */
+.thumbnail {
+  width: 100%;  /* Make thumbnails fill container width */
+  margin-bottom: 12px;  /* Add space below thumbnails */
+}
+
+/* Video info grid layout */
+.video-info-grid {
+  display: grid;  /* Use grid layout for video information */
+  grid-template-columns: 50px 1fr;  /* Define grid columns: fixed 50px, remaining flexible */
+}
+
+/* Style profile pictures */
+.profile-picture {
+  width: 48px;  /* Set profile picture width */
+  border-radius: 50px;  /* Create rounded corners (circular) */
+}
+
+/* Style video titles */
+.video-title {
+  margin-top: 0;  /* Remove default top margin */
+  font-weight: 500;  /* Make title bold (medium) */
+  font-size: 20px;  /* Set title font size to 20px */
+  margin-bottom: 10px;  /* Add space below title */
+  padding-left: 12px;  /* Add left padding to title content */
+}
+
+/* Style video stats and author info (shared styles) */
+.video-stats,
+.video-author {
+  font-weight: 400;  /* Set to normal font weight */
+  font-size: 16px;  /* Set font size to 16px */
+  color: rgb(96, 96, 96);  /* Use light gray text color */
+  padding-left: 12px;  /* Add left padding to content */
+}
+
+/* Additional style for video author */
+.video-author {
+  margin-bottom: 5px;  /* Add small space below author info */
+}
+
+/* Video grid layout */
+.video-grid {
+  display: grid;  /* Use grid layout for video grid */
+  grid-template-columns: 1fr 1fr 1fr;  /* Create three equal grid columns */
+  column-gap: 26px;  /* Add space between grid columns */
+  row-gap: 66px;  /* Add space between grid rows */
+  margin-top: 38px;  /* Add space above video grid */
+}

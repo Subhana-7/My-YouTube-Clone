@@ -1,0 +1,14 @@
+/* Paragraph styles */
+p {
+  font-family: Roboto, Arial;  /* Roboto preferred, Arial fallback */
+  margin: 0;                 /* Remove top & bottom margins */
+}
+
+/* Body styles */
+body {
+  margin: 0;                 /* Remove default body margin */
+  padding-top: 80px;          /* Add top padding */
+  padding-left: 130px;        /* Add left padding */
+  padding-right: 32px;       /* Add right padding (less) */
+  background-color: rgb(250, 250, 250); /* Light gray background */
+}
